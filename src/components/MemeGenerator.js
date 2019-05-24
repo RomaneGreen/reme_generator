@@ -2,11 +2,21 @@ import React, { Component } from 'react'
 
 export default class MemeGenerator extends Component {
 
+    constructor(props){
+        super(props) 
+            this.state = {
+
+                image:'https://i.imgflip.com/1bij.jpg'
+            }
+        
+        }
+
     componentDidMount() {
         alert("halo!")
     }
 
   render() {
+
 
     
     
@@ -14,8 +24,11 @@ export default class MemeGenerator extends Component {
     
     return (
       <div>
-        <p>Hey i extend baby</p>
+        <form>
+
+            <button>Generate</button>
+        </form>
       </div>
     )
-  }
+    }
 }
