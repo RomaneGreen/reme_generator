@@ -20,7 +20,7 @@ export default class MemeGenerator extends Component {
     return (
       <div>
         <form>
-            <img alt="initimg" src={this.state.image}></img>
+            <img style={{ border: "100px solid aqua"}} alt="initimg" src={this.state.image}></img>
             <input type="text" placeholder="enter topic..."></input>
             <button>Generate</button>
         </form>
