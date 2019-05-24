@@ -15,6 +15,13 @@ export default class MemeGenerator extends Component {
         alert("halo!")
     }
 
+    submitForm = () => {
+
+        
+            alert('damn!')
+    }
+
+
   render() {
    
     return (
@@ -22,7 +29,7 @@ export default class MemeGenerator extends Component {
         <form>
             <img style={{ border: "100px solid aqua"}} alt="initimg" src={this.state.image}></img>
             <input type="text" placeholder="enter topic..."></input>
-            <button>Generate</button>
+            <button type="submit" onClick={this.submitForm}>Generate</button>
         </form>
       </div>
     )
