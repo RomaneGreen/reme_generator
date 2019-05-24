@@ -16,16 +16,12 @@ export default class MemeGenerator extends Component {
     }
 
   render() {
-
-
-    
-    
-    
-    
+   
     return (
       <div>
         <form>
-
+            <img alt="initimg" src={this.state.image}></img>
+            <input type="text" placeholder="enter topic..."></input>
             <button>Generate</button>
         </form>
       </div>
