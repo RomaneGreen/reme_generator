@@ -30,7 +30,7 @@ export default class MemeGenerator extends Component {
 
     submitForm = (ev) => {
             ev.preventDefault()
-        const newImage = this.state.randomImgs[3].url
+        const newImage = this.state.randomImgs[Math.floor(Math.random()*100)].url
             this.setState({
                 image: newImage
             })
