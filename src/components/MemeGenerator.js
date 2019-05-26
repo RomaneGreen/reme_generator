@@ -20,8 +20,8 @@ export default class MemeGenerator extends Component {
             this.setState({
                 randomImgs : memes
             })
-            console.log(memes)
-            console.log(this.state.randomImgs[3].url)
+            // console.log(memes)
+            // console.log(this.state.randomImgs[3].url)
         })
         
        
@@ -43,9 +43,9 @@ export default class MemeGenerator extends Component {
     return (
       <div>
         <form>
-            <img style={{ border: "100px solid aqua"}} alt="initialImg" src={this.state.image}></img>
-            <input type="text" placeholder="enter topic..."></input>
-            <button type="submit" onClick={this.submitForm}>Generate</button>
+            <img style={{ border: "50px solid black" }} alt="initialImg" src={this.state.image}></img>
+            {/* <input type="text" placeholder="enter topic..."></input> */}
+            <button style={{ display: "block" }}type="submit" onClick={this.submitForm}>Click to Generate random Meme</button>
         </form>
       </div>
     )
