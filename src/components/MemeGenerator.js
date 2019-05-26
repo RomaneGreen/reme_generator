@@ -24,7 +24,7 @@ export default class MemeGenerator extends Component {
             console.log(this.state.randomImgs[3].url)
         })
         
-        alert("halo!")
+       
        
     }
 
@@ -34,7 +34,7 @@ export default class MemeGenerator extends Component {
             this.setState({
                 image: newImage
             })
-            alert('damn!')
+           
     }
 
 
