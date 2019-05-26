@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import '../App.css'
+
 
 export default class MemeGenerator extends Component {
 
@@ -43,7 +45,7 @@ export default class MemeGenerator extends Component {
     return (
       <div>
         <form>
-            <img style={{ border: "50px solid black" }} alt="initialImg" src={this.state.image}></img>
+            <img style={{ border: '50px solid black', height:'500px', width:'500px'}} alt="initialImg" src={this.state.image}></img>
             {/* <input type="text" placeholder="enter topic..."></input> */}
             <button style={{ display: "block" }}type="submit" onClick={this.submitForm}>Click to Generate random Meme</button>
         </form>
