@@ -44,6 +44,7 @@ export default class MemeGenerator extends Component {
    
     return (
       <div>
+            <h2>Random Meme Generator</h2>
         <form>
             <img style={{ border: '50px solid black', height:'500px', width:'500px'}} alt="initialImg" src={this.state.image}></img>
             {/* <input type="text" placeholder="enter topic..."></input> */}

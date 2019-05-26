@@ -7,13 +7,15 @@ body {
 
 form {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     
 }
 
 button {
     text-align: center;
     margin: auto;
+    margin-top: 1rem;
 }
 
  button {
@@ -54,4 +56,9 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+
+h2 {
+    text-align: center;
 }
